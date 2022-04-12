@@ -13,8 +13,7 @@ staff chat within Discord for any session-specific questions and comments.
 4. Go to snooper settings and check to bottom of this settings page. 
 5. Enter texture packs and look for x-ray packs 
 6. Have the suspected player relog to the server.  Look for any buttons within the title screen. 
-7. **After a relog** Open controls and bind left click to various other buttons such as: RShift, LControl, BACKSPACE, ect.  Look for unusual functionalities.  
-Have them destroy a specific block. 
+7. **After a relog** Open controls and bind left click to various other buttons such as: RShift, LControl, BACKSPACE, ect.  Look for unusual functionalities.  Have them destroy a specific block. 
 8. Check the trash bin
 These next steps are operating system specific. 
 9a. Press windows+r and type %APPDATA%.  Then open .minecraft
