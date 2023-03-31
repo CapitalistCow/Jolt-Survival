@@ -1,0 +1,272 @@
+quests:
+  # 1: 
+  #   name: ''  # Generic Name
+  #   type:   # Your quest
+  #   variable:
+  #     root:   # 'item_name:state' | none | quest_type
+  #     item:   # item_name
+  #     level:  # int
+  #     holding:
+  #       item:   # item_name:int
+  #       name: ''  # string
+  #       amount:   # int
+  #   required-progress:  # int - The level player should reach
+  #   points: 10  # int - The amount of points that will be rewarded
+  #   item:   # The item that will be displayed in menus
+  #     material:   # item_name:amount
+  #     amount:   # int
+  #     name: ''
+  #     lore: 
+  #       - ''
+  #       - ''
+  #       - ''
+
+### Block-Break  ###
+
+# Triggered: When a player breaks a block.
+# Variable: The block's material.
+  
+  1: 
+    name: 'Lumberjack'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: oak_log:0 OR spruce_log:0 OR birch_log:0 OR jungle_log:0 OR acacia_log:0 OR dark_oak_log OR mangrove_log:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: oak_log:0
+      amount: 1
+      name: 'Lumberjack'
+      lore: 
+        - 'Go chop crazy!  Mine 128 wood logs'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Nether Lumberjack'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: crimson_stem:0 OR warped_stem:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: warped:0
+      amount: 1
+      name: 'Nether Lumberjack'
+      lore: 
+        - 'Dodge the ghasts weilding your trusty axe!  Mine 128 nether wood logs'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Deep Miner'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: deepslate:0 OR cobbled_deepslate:0
+    required-progress: 256 # The level player should reach/amount
+    points:   # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: deepslate:0
+      amount: 1
+      name: 'Deep World Miner'
+      lore: 
+        - 'Dwell in the depths!  Mine 256 deepslate blocks'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Miner'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: stone:0 OR cobblestone:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cobblestone:0
+      amount: 1
+      name: 'Cave Miner'
+      lore: 
+        - 'Go pickaxe crazy!  Mine 128 stone or cobblestone blocks'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Generic Mineables'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: granite:0 OR diorite:0 OR andesite:0 OR gravel:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: diorite:0
+      amount: 1
+      name: 'Geologist'
+      lore: 
+        - 'Mine special rock-type blocks!  Mine 64 blocks of granite, diorite, andesite, or gravel'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Desert Breaker'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: sandstone:0 OR smooth_sandstone:0 OR red_sandstone:0 OR smooth_red_sandstone:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: sandstone:0
+      amount: 1
+      name: 'Desert Breaker'
+      lore: 
+        - 'Release your inner dwarf within the desert mines!  Mine 128 sandstone blocks'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'End Fortress Toppler'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: purpur_block:0 OR purpur_pillar:0 OR purpur_stairs:0 OR purpur_slab:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: end_stone:0
+      amount: 1
+      name: 'End Miner'
+      lore: 
+        - 'Mine holes in the end!  Mine 128 end stone blocks'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Coal'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: coal_ore:0 OR deepslate_coal_ore:0
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: coal_ore:0
+      amount: 1
+      name: 'Coal Miner'
+      lore: 
+        - 'Get soot-ified!  Mine 32 blocks of coal ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Iron'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: iron_ore:0 OR deepslate_iron_ore:0
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: iron_ore:0
+      amount: 1
+      name: 'Ferrous Forager'
+      lore: 
+        - 'Watch out for tetanus!  Mine 32 blocks of iron ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Copper'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: copper_ore:0 OR deepslate_copper_ore:0
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: copper_ore:0
+      amount: 1
+      name: 'Copper Collecter'
+      lore: 
+        - 'Go catch some copper!  Mine 32 blocks of copper ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Gold'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: gold_ore:0 OR deepslate_gold_ore:0 OR nether_gold_ore:0
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: gold_ore:0
+      amount: 1
+      name: 'Unground Gold'
+      lore: 
+        - 'Gather your gold, prospector!  Mine 32 blocks of gold ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Quartz'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: nether_quartz_ore:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: nether_quartz_ore:0
+      amount: 1
+      name: 'Quartz Crazy'
+      lore: 
+        - 'Go quartz crazy!  Mine 64 blocks of nether quartz ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Redstone'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: redstone_ore:0 OR deepslate_redstone_ore:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: redstone:0
+      amount: 1
+      name: 'Engineer'
+      lore: 
+        - 'Begin your progress towards being an engineer!  Mine 128 blocks of redstone ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Emerald'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: emerald_ore:0 OR deepslate_emerald_ore:0
+    required-progress: 8 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: emerald_ore:0
+      amount: 1
+      name: 'Collect Wealth'
+      lore: 
+        - 'Earn your keep!  Mine 8 blocks of emerald ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Lapis'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: lapis_ore:0 OR deepslate_lapis_ore:0
+    required-progress: 16 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: lapis_ore:0
+      amount: 1
+      name: 'Collect Lapis'
+      lore: 
+        - 'Load up on Lapis!  Mine 16 blocks of lapis ore'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  1: 
+    name: 'Mine Glowstone'  # Generic Name
+    type: block-break  # Your quest
+    variable:
+      root: glowstone:0
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: glowstone:0
+      amount: 1
+      name: 'Gather Glowstone'
+      lore: 
+        - 'Grub the nether for glowstone!  Mine 32 blocks of glowstone'
+        - ''
+        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+
+
+
+        
