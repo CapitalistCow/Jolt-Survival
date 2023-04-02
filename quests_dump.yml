@@ -40,8 +40,8 @@ quests:
       lore: 
         - 'Go chop crazy!  Mine 128 wood logs'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  2: 
     name: 'Nether Lumberjack'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -55,8 +55,8 @@ quests:
       lore: 
         - 'Dodge the ghasts weilding your trusty axe!  Mine 128 nether wood logs'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  3: 
     name: 'Deep Miner'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -70,8 +70,8 @@ quests:
       lore: 
         - 'Dwell in the depths!  Mine 256 deepslate blocks'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  4: 
     name: 'Miner'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -85,8 +85,8 @@ quests:
       lore: 
         - 'Go pickaxe crazy!  Mine 128 stone or cobblestone blocks'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  5: 
     name: 'Generic Mineables'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -100,8 +100,8 @@ quests:
       lore: 
         - 'Mine special rock-type blocks!  Mine 64 blocks of granite, diorite, andesite, or gravel'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  6: 
     name: 'Desert Breaker'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -115,8 +115,8 @@ quests:
       lore: 
         - 'Release your inner dwarf within the desert mines!  Mine 128 sandstone blocks'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  7: 
     name: 'End Fortress Toppler'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -130,8 +130,8 @@ quests:
       lore: 
         - 'Mine holes in the end!  Mine 128 end stone blocks'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  8: 
     name: 'Mine Coal'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -145,8 +145,8 @@ quests:
       lore: 
         - 'Get soot-ified!  Mine 32 blocks of coal ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  9: 
     name: 'Mine Iron'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -160,8 +160,8 @@ quests:
       lore: 
         - 'Watch out for tetanus!  Mine 32 blocks of iron ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  10: 
     name: 'Mine Copper'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -175,8 +175,8 @@ quests:
       lore: 
         - 'Go catch some copper!  Mine 32 blocks of copper ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  11: 
     name: 'Mine Gold'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -190,8 +190,8 @@ quests:
       lore: 
         - 'Gather your gold, prospector!  Mine 32 blocks of gold ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  12: 
     name: 'Mine Quartz'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -205,8 +205,8 @@ quests:
       lore: 
         - 'Go quartz crazy!  Mine 64 blocks of nether quartz ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  13: 
     name: 'Mine Redstone'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -220,8 +220,8 @@ quests:
       lore: 
         - 'Begin your progress towards being an engineer!  Mine 128 blocks of redstone ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  14: 
     name: 'Mine Emerald'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -235,8 +235,8 @@ quests:
       lore: 
         - 'Earn your keep!  Mine 8 blocks of emerald ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  15: 
     name: 'Mine Lapis'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -250,8 +250,8 @@ quests:
       lore: 
         - 'Load up on Lapis!  Mine 16 blocks of lapis ore'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
-  1: 
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  16: 
     name: 'Mine Glowstone'  # Generic Name
     type: block-break  # Your quest
     variable:
@@ -263,10 +263,659 @@ quests:
       amount: 1
       name: 'Gather Glowstone'
       lore: 
-        - 'Grub the nether for glowstone!  Mine 32 blocks of glowstone'
+        - 'Grub the nether for glowstone!'
+        - 'Mine 32 blocks of glowstone'
         - ''
-        - '&7Progress &e%total_progress%&7/&e%required_progress%'
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
 
+### Block-Place ###
 
+#Triggered: When a player places a block.
+#Variable: The block's material.
 
+  17: 
+    name: 'Place Glowstone'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: glowstone:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: glowstone:0
+      amount: 1
+      name: 'Place Glowstone'
+      lore: 
+        - 'Get your glow on!'
+        - 'Place 64 blocks of glowstone'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'  
+  18: 
+    name: 'Place Redstone Lamps'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: redstone_lamp:0
+    required-progress: 16 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: redstone_lamp:0
+      amount: 1
+      name: 'Place Redstone Lamps'
+      lore: 
+        - 'Upgrade your lighting.'
+        - 'Place 16 redstone lamps'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'  
+  19: 
+    name: 'Place Fences'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: oak_fence:0 OR spruce_fence:0 OR birch_fence:0 OR jungle_fence:0 OR acacia_fence:0 OR dark_oak_fence:0 OR mangrove_fence:0 OR crimson_fence:0 Or warped_fence:0 OR nether_brick_fence:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: oak_fence:0
+      amount: 1
+      name: 'Place Fences'
+      lore: 
+        - 'Fix up your fencing!'
+        - 'Place 64 fences of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'   
+  20: 
+    name: 'Place Walls'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: cobblestone_wall:0 Or mossy_cobblestone_wall:0 Or stone_brick_wall:0 OR mossy_stone_brick_wall:0 OR granite_wall:0 OR diorite_wall:0 OR andesite_wall:0 OR cobbled_deepslate_wall:0 OR polished_deepslate_wall:0 OR deepslate_brick_wall:0 OR deepslate_tile_wall:0 OR brick_wall:0 OR mud_brick_wall:0 OR sandstone_wall:0 OR red_sandstone_wall:0 OR prismarine_wall:0 OR nether_brick_wall:0 OR red_nether_brick_wall:0 OR blackstone_wall:0 OR polished_blackstone_wall:0 OR polished_blackstone_brick_wall:0 OR end_stone_brick_wall:0
+    required-progress: 48 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: stone_brick_wall:0
+      amount: 1
+      name: 'Place Walls'
+      lore: 
+        - 'Beef up your defenses!'
+        - 'Place 48 walls of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'    
+  21: 
+    name: 'Place Planks'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: oak_planks:0 OR spruce_planks:0 OR birch_planks:0 OR jungle_planks:0 OR acacia_planks:0 OR dark_oak_planks:0 OR mangrove_planks:0 OR crimson_planks:0 OR warped_planks:0
+    required-progress: 256 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: oak_planks:0
+      amount: 1
+      name: 'Place Planks'
+      lore: 
+        - 'Plank it up!'
+        - 'Place 256 planks of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'   
+  22: 
+    name: 'Place Polished Stone'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: polished_andesite:0 OR polished_granite:0 OR polished_diorite:0 OR polished_deepslate:0 OR polished_blackstone:0 OR smooth_stone:0 OR polished_basalt:0
+    required-progress: 256 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: polished_andesite:0
+      amount: 1
+      name: 'Place Polished Stone'
+      lore: 
+        - 'Add a little polish to your build!'
+        - 'Place 256 polished stone of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'    
+  23: 
+    name: 'Place Bricks'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: bricks:0 OR brick_stairs:0 OR brick_slab:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bricks:0
+      amount: 1
+      name: 'Place Bricks'
+      lore: 
+        - 'Huff and puff proof!'
+        - 'Place 128 bricks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  24: 
+    name: 'Place End Stone Bricks'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: end_stone_bricks:0 OR end_stone_brick_stairs:0 OR end_stone_brick_slab:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bricks:0
+      amount: 1
+      name: 'Place End Stone Bricks'
+      lore: 
+        - 'Show a little ender appreciation!'
+        - 'Place 128 end stone bricks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'    
+  25: 
+    name: 'Place Stone Bricks'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: stone_bricks:0 OR mossy_stone_bricks:0 OR chiseled_stone_bricks:0 OR cracked_stone_bricks:0 OR stone_brick_stairs:0 OR stone_brick_slab:0 OR mossy_stone_brick_stairs:0 OR mossy_stone_brick_slab:0
+    required-progress: 512 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bricks:0
+      amount: 1
+      name: 'Place Stone Bricks'
+      lore: 
+        - 'Sturdy and reliable!'
+        - 'Place 512 stone bricks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'            
+  26: 
+    name: 'Place Nether Bricks'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: nether_bricks:0 OR cracked_nether_bricks:0 OR chiseled_nether_bricks:0 Or red_nether_bricks:0 OR nether_brick_stairs:0 OR nether_brick_slab:0 OR red_nether_brick_stairs:0 OR red_nether_brick_slab:0
+    required-progress: 256 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: nether_bricks:0
+      amount: 1
+      name: 'Place Nether Bricks'
+      lore: 
+        - 'Bring the fortress home!'
+        - 'Place 256 nether bricks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  27: 
+    name: 'Place Sandstone'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: sandstone:0 OR sandstone_stairs:0 OR sandstone_slab:0 OR chisled_sandstone:0 OR smooth_sandstone:0 OR smooth_sandstone_stairs:0 OR smooth_sandstone_slab:0 OR cut_sandstone:0 OR cut_sandstone_slab:0 OR red_sandstone:0 OR red_sandstone_stairs:0 OR red_sandstone_slab:0 OR chisled_red_sandstone:0 OR smooth_red_sandstone:0 OR smooth_red_sandstone_stairs:0 OR smooth_red_sandstone_slab:0 OR cut_red_sandstone:0 OR cut_red_sandstone_slab:0
+    required-progress: 512 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: chisled_sandstone:0
+      amount: 1
+      name: 'Place Sandstone'
+      lore: 
+        - 'Sandy and sturdy!'
+        - 'Place 512 sandstone of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  28: 
+    name: 'Place Copper'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: copper_block:0 OR cut_copper:0 OR cut_copper_stairs:0 OR cut_copper_slab:0
+    required-progress: 128 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cut_copper:0
+      amount: 1
+      name: 'Place Copper'
+      lore: 
+        - 'Copper conquest!'
+        - 'Place 128 copper blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  29: 
+    name: 'Place Prismarine'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: prismarine:0 OR prismarine_stairs:0 OR prismarine_slab:0 OR dark_prismarine:0 OR dark_prismarine_stairs:0 OR dark_prismarine_slab:0 OR prismarine_bricks:0 OR prismarine_brick_stairs:0 OR prismarine_brick_slab:0
+    required-progress: 128 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: dark_prismarine:0
+      amount: 1
+      name: 'Place Prismarine'
+      lore: 
+        - 'Marine marvel!'
+        - 'Place 128 prismarine blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  30: 
+    name: 'Place Quartz'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: quartz_block:0 OR chiseled_quartz_block:0 OR quartz_pillar:0 OR quartz_stairs:0 OR quartz_slab:0 OR smooth_quartz:0 OR smooth_quartz_stairs:0 OR smooth_quartz_slab:0 OR quartz_bricks:0
+    required-progress: 256 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: chiseled_quartz_block:0
+      amount: 1
+      name: 'Place Quartz'
+      lore: 
+        - 'Elegant architecture!'
+        - 'Place 256 quartz blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  31: 
+    name: 'Place Sea Lanterns'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: sea_lantern:0
+    required-progress: 32 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: sea_lantern:0
+      amount: 1
+      name: 'Place Sea Lanterns'
+      lore: 
+        - 'Deep sea illuminator!'
+        - 'Place 32 sea lanterns'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  32: 
+    name: 'Place Wool'  # Generic Name
+    type: block-place  # Your quest
+    variable:
+      root: white_wool:0 OR orange_wool:0 OR magenta_wool:0 OR light_blue_wool:0 OR yellow_wool:0 OR lime_wool:0 OR pink_wool:0 OR gray_wool:0 OR light_gray_wool:0 OR cyan_wool:0 OR purple_wool:0 OR blue_wool:0 OR brown_wool:0 OR green_wool:0 OR red_wool:0 OR black_wool:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: light_blue_wool:0
+      amount: 1
+      name: 'Place Wool'
+      lore: 
+        - 'Become a fiber fanatic!'
+        - 'Place 128 wool of any color'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
         
+### Consume ###
+
+#Triggered: Whenever a player consumes (eats) something.
+#Variable: The item's material.
+
+  33: 
+    name: 'Eat Bread'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: bread:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bread:0
+      amount: 1
+      name: 'Eat Bread'
+      lore: 
+        - 'Bready, set, go!'
+        - 'Eat 64 bread'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  34: 
+    name: 'Eat Melon Slices'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: melon_slice:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: melon_slice:0
+      amount: 1
+      name: 'Eat Melon Slices'
+      lore: 
+        - 'Get the munchies for melon!'
+        - 'Eat 64 melon slices'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  35: 
+    name: 'Eat Sweet Berries'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: sweet_berries:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: sweet_berries:0
+      amount: 1
+      name: 'Eat Sweet Berries'
+      lore: 
+        - 'Let the berry binge begin!'
+        - 'Eat 64 sweet berries'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  36: 
+    name: 'Eat Chicken'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_chicken:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_chicken:0
+      amount: 1
+      name: 'Eat Chicken'
+      lore: 
+        - 'Become a fowl foodie!'
+        - 'Eat 64 cooked chicken'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  37: 
+    name: 'Eat Porkchops'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_porkchop:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_porkchop:0
+      amount: 1
+      name: 'Eat Porkchops'
+      lore: 
+        - 'Pig-out like a pro!'
+        - 'Eat 64 cooked porkchops'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  38: 
+    name: 'Eat Steak'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_beef:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_beef:0
+      amount: 1
+      name: 'Eat Steak'
+      lore: 
+        - 'Protein power!'
+        - 'Eat 64 cooked beef'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  39: 
+    name: 'Eat Mutton'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_mutton:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_mutton:0
+      amount: 1
+      name: 'Eat Mutton'
+      lore: 
+        - 'Feast on the flock!'
+        - 'Eat 64 cooked mutton'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  40: 
+    name: 'Eat Cod'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_cod:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_cod:0
+      amount: 1
+      name: 'Eat Cod'
+      lore: 
+        - 'Swimmingly scrumptious!'
+        - 'Eat 64 cooked cod'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  41: 
+    name: 'Eat Salmon'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_salmon:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_salmon:0
+      amount: 1
+      name: 'Eat Salmon'
+      lore: 
+        - 'A fishy feast!'
+        - 'Eat 64 cooked salmon'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  42: 
+    name: 'Eat Beetroot Soup'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: beetroot_soup:0
+    required-progress: 16 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: beetroot_soup:0
+      amount: 1
+      name: 'Eat Beetroot Soup'
+      lore: 
+        - 'Souper slurper!'
+        - 'Eat 16 beetroot soup'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  43: 
+    name: 'Eat Mushroom Soup'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: mushroom_stew:0
+    required-progress: 16 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: mushroom_stew:0
+      amount: 1
+      name: 'Eat Mushroom Stew'
+      lore: 
+        - 'A fungal feast!'
+        - 'Eat 16 mushroom stew'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  44: 
+    name: 'Drink Milk'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: milk_bucket:0
+    required-progress: 8 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: milk_bucket:0
+      amount: 1
+      name: 'Drink Milk'
+      lore: 
+        - 'Milk it for all its worth!'
+        - 'Drink 8 buckets of milk'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  45: 
+    name: 'Eat Pumkin Pie'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: pumpkin_pie:0
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: pumpkin_pie:0
+      amount: 1
+      name: 'Eat Pumkin Pie'
+      lore: 
+        - 'Pumpkiny perfection!'
+        - 'Eat 64 pumpkin pies'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  46: 
+    name: 'Eat Glow Berries'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: glow_berries:0
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: glow_berries:0
+      amount: 1
+      name: 'Eat Glow Berries'
+      lore: 
+        - 'Illuminate your taste buds!'
+        - 'Eat 64 glow berries'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  47: 
+    name: 'Eat Cookies'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cookie:0
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cookie:0
+      amount: 1
+      name: 'Eat Cookies'
+      lore: 
+        - 'Become a cookie conqueror!'
+        - 'Eat 64 cookies'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  48: 
+    name: 'Eat Rabbit'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: cooked_rabbit:0
+    required-progress: 32 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_rabbit:0
+      amount: 1
+      name: 'Eat Rabbit'
+      lore: 
+        - 'A hare-raising feast!'
+        - 'Eat 32 cooked rabbits'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  49: 
+    name: 'Eat Rabbit Stew'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: rabbit_stew:0
+    required-progress: 16 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: rabbit_stew:0
+      amount: 1
+      name: 'Eat Rabbit Stew'
+      lore: 
+        - 'A hoppin good stew!'
+        - 'Eat 16 rabbit stews'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  50: 
+    name: 'Eat Poisonous Potatoes'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: poisonous_potatoes:0
+    required-progress: 16 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: poisonous_potatoes:0
+      amount: 1
+      name: 'Eat Poisonous Potatoes'
+      lore: 
+        - 'A tasty toxic treat!'
+        - 'Eat 16 poison potatoes'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  51: 
+    name: 'Eat Golden Carrots'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: golden_carrot:0
+    required-progress: 32 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: golden_carrot:0
+      amount: 1
+      name: 'Eat Golden Carrots'
+      lore: 
+        - 'A 24 Karat Snack!'
+        - 'Eat 32 golden carrots'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  52: 
+    name: 'Eat Chorus Fruit'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: chorus_fruit:0
+    required-progress: 16 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: chorus_fruit:0
+      amount: 1
+      name: 'Eat Chorus Fruit'
+      lore: 
+        - 'A chaotic cuisine!'
+        - 'Eat 16 chorus fruit'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  53: 
+    name: 'Drink Honey'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: honey_bottle:0
+    required-progress: 16 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: honey_bottle:0
+      amount: 1
+      name: 'Drink Honey'
+      lore: 
+        - 'Sweet success!'
+        - 'Drink 16 bottles of honey'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  54: 
+    name: 'Eat Pufferfish'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: pufferfish:0
+    required-progress: 8 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: pufferfish:0
+      amount: 1
+      name: 'Eat Pufferfish'
+      lore: 
+        - 'A delightfully deadly delicacy!'
+        - 'Eat 8 pufferfish'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  55: 
+    name: 'Eat Golden Apples'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: golden_apple:0
+    required-progress: 8 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: golden_apple:0
+      amount: 1
+      name: 'Eat Golden Apples'
+      lore: 
+        - 'Shiny and Delicious!'
+        - 'Eat 8 golden apples'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  56: 
+    name: 'Eat God Apples'  # Generic Name
+    type: consume  # Your quest
+    variable:
+      root: enchanted_golden_apple:0
+    required-progress: 2 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_golden_apple:0
+      amount: 1
+      name: 'Eat God Apples'
+      lore: 
+        - 'Eat like a god!'
+        - 'Eat 2 enchanted golden apples'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
