@@ -1692,3 +1692,136 @@ quests:
         - 'Craft 1 beacon'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### Fish ###
+#Triggered: When a player catches an item from fishing.
+#Variable: The item caught from fishing.
+
+  103: 
+    name: 'Catch Cod'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: cod:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cod:0
+      amount: 1
+      name: 'Catch Cod'
+      lore: 
+        - 'Catch some cod!'
+        - 'Fish up 64 cod'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  104: 
+    name: 'Catch Salmon'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: salmon:0
+    required-progress: 48 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: salmon:0
+      amount: 1
+      name: 'Catch Salmon'
+      lore: 
+        - 'Stock up on salmon!'
+        - 'Fish up 48 salmon'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  105: 
+    name: 'Catch Pufferfish'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: pufferfish:0
+    required-progress: 32 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: pufferfish:0
+      amount: 1
+      name: 'Catch Pufferfish'
+      lore: 
+        - 'Dont get poisoned!'
+        - 'Fish up 32 pufferfish'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  106: 
+    name: 'Catch Tropical Fish'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: tropical_fish:0
+    required-progress: 16 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: tropical_fish:0
+      amount: 1
+      name: 'Catch Tropical Fish'
+      lore: 
+        - 'A colorful catch!'
+        - 'Fish up 32 tropical fish'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  107: 
+    name: 'Catch Nautilus Shells'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: nautilus_shell:0
+    required-progress: 8 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: nautilus_shell:0
+      amount: 1
+      name: 'Catch Nauttilus Shells'
+      lore: 
+        - 'Go fishing for some fossils!'
+        - 'Fish up 8 nautilus shells'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  108: 
+    name: 'Catch Enchanted Books'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: enchanted_book:0
+    required-progress: 8 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:0
+      amount: 1
+      name: 'Catch Enchanted Books'
+      lore: 
+        - 'Go fishing for some fortune!'
+        - 'Fish up 8 enchanted books'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  109: 
+    name: 'Catch Name Tags'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: name_tag:0
+    required-progress: 8 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: name_tag:0
+      amount: 1
+      name: 'Catch Name Tags'
+      lore: 
+        - 'Snag a tag!'
+        - 'Fish up 8 name tags'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  110: 
+    name: 'Catch Saddles'  # Generic Name
+    type: fish  # Your quest
+    variable:
+      root: saddle:0
+    required-progress: 8 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: saddle:0
+      amount: 1
+      name: 'Catch Saddles'
+      lore: 
+        - 'Find a sunken saddle!'
+        - 'Fish up 8 saddles'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
