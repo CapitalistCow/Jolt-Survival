@@ -950,3 +950,745 @@ quests:
         - 'Eat 2 enchanted golden apples'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### Craft ###
+
+#Triggered: Whenever a player crafts an item.
+#Variable: The crafted item's material.
+
+  58: 
+    name: 'Craft Wood Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: oak_wood:0 OR spruce_wood:0 OR birch_wood:0 OR jungle_wood:0 OR acacia_wood:0 OR dark_oak_wood:0 OR mangrove_wood:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: birch_wood:0
+      amount: 1
+      name: 'Craft Wood Blocks'
+      lore: 
+        - 'Woodworker extraordinaire!'
+        - 'Craft 128 wood blocks of any kind'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  59: 
+    name: 'Craft Signs'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: oak_sign:0 OR spruce_sign:0 OR birch_sign:0 OR acacia_sign:0 OR dark_oak_sign:0 OR jungle_sign:0 OR crimson_sign:0 OR warped_sign:0 OR acacia_sign:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: jungle_sign:0
+      amount: 1
+      name: 'Craft Signs'
+      lore: 
+        - 'Crafty communicator!'
+        - 'Craft 64 signs of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  60: 
+    name: 'Craft Bread'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: bread:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bread:0
+      amount: 1
+      name: 'Craft Signs'
+      lore: 
+        - 'Rise to the occasion!'
+        - 'Craft 128 pieces of bread'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  61: 
+    name: 'Craft Torches'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: bread:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bread:0
+      amount: 1
+      name: 'Craft Torches'
+      lore: 
+        - 'Craft a brighter future!'
+        - 'Craft 128 torches'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  62: 
+    name: 'Craft Torches'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: torch:0 OR soul_torch:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: torch:0
+      amount: 1
+      name: 'Craft Torches'
+      lore: 
+        - 'Craft a brighter future!'
+        - 'Craft 128 torches'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  63: 
+    name: 'Craft Trapdoors'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: oak_trapdoor:0 OR spruce_trapdoor:0 OR birch_trapdoor:0 OR jungle_trapdoor:0 OR acacia_trapdoor:0 OR dark_oak_trapdoor:0 OR crimson_trapdoor:0 OR warped_trapdoor:0 OR acacia_trapdoor:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: spruce_trapdoor:0
+      amount: 1
+      name: 'Craft Trapdoors'
+      lore: 
+        - 'Trapdoors make great decoration!'
+        - 'Craft 128 trapdoors'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  64: 
+    name: 'Craft Arrows'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: arrow:0
+    required-progress: 256 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: arrow:0
+      amount: 1
+      name: 'Craft Arrows'
+      lore: 
+        - 'Aim for victory!'
+        - 'Craft 256 arrows'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  65: 
+    name: 'Craft Storage'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: chest:0 OR trapped_chest:0 OR barrel:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: chest:0
+      amount: 1
+      name: 'Craft Storage'
+      lore: 
+        - 'Upgrade your storage!'
+        - 'Craft 128 chests or barrels'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  66: 
+    name: 'Craft Carpets'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: white_carpet:0 OR orange_carpet:0 OR magenta_carpet:0 OR light_blue_carpet:0 OR yellow_carpet:0 OR lime_carpet:0 OR pink_carpet:0 OR gray_carpet:0 OR light_gray_carpet:0 OR cyan_carpet:0 OR purple_carpet:0 OR blue_carpet:0 OR brown_carpet:0 OR green_carpet:0 OR red_carpet:0 OR black_carpet:0
+    required-progress: 256 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: magenta_carpet:0
+      amount: 1
+      name: 'Craft Carpets'
+      lore: 
+        - 'Transform your floors!'
+        - 'Craft 256 carpets of any color'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  67: 
+    name: 'Craft Carpets'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: white_carpet:0 OR orange_carpet:0 OR magenta_carpet:0 OR light_blue_carpet:0 OR yellow_carpet:0 OR lime_carpet:0 OR pink_carpet:0 OR gray_carpet:0 OR light_gray_carpet:0 OR cyan_carpet:0 OR purple_carpet:0 OR blue_carpet:0 OR brown_carpet:0 OR green_carpet:0 OR red_carpet:0 OR black_carpet:0
+    required-progress: 256 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: magenta_carpet:0
+      amount: 1
+      name: 'Craft Carpets'
+      lore: 
+        - 'Transform your floors!'
+        - 'Craft 256 carpets of any color'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  68: 
+    name: 'Craft Beetroot Soup'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: beetroot_soup:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: beetroot_soup:0
+      amount: 1
+      name: 'Craft Beetroot Soup'
+      lore: 
+        - 'Soup's on!'
+        - 'Craft 64 bowls of beetroot soup'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  69: 
+    name: 'Craft Dried Kelp Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: dried_kelp_block:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: dried_kelp_block:0
+      amount: 1
+      name: 'Craft Dried Kelp Blocks'
+      lore: 
+        - 'Compact your kelp!'
+        - 'Craft 128 dried kelp blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  70: 
+    name: 'Craft Mushroom Stew'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: mushroom_stew:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: mushroom_stew:0
+      amount: 1
+      name: 'Craft Mushroom Stew'
+      lore: 
+        - 'Scavenge up some stew!'
+        - 'Craft 64 bowls of mushroom stew'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  71: 
+    name: 'Craft Coal Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: coal_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: coal_block:0
+      amount: 1
+      name: 'Craft Coal Blocks'
+      lore: 
+        - 'Get crafty with coal!'
+        - 'Craft 64 blocks of coal'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  72: 
+    name: 'Craft Lanterns'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: lantern:0 OR soul_lantern:0
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: lantern:0
+      amount: 1
+      name: 'Craft Lanterns'
+      lore: 
+        - 'Let there be light!'
+        - 'Craft 32 lanterns'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  73: 
+    name: 'Craft Cakes'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: cake:0
+    required-progress: 16 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cake:0
+      amount: 1
+      name: 'Craft Cakes'
+      lore: 
+        - 'It's a lie!'
+        - 'Craft 16 cakes'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  74: 
+    name: 'Craft Concrete'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: white_concrete_powder:0 OR orange_concrete_powder:0 OR magenta_concrete_powder:0 OR light_blue_concrete_powder:0 OR yellow_concrete_powder:0 OR lime_concrete_powder:0 OR pink_concrete_powder:0 OR gray_concrete_powder:0 OR light_gray_concrete_powder:0 OR cyan_concrete_powder:0 OR purple_concrete_powder:0 OR blue_concrete_powder:0 OR brown_concrete_powder:0 OR green_concrete_powder:0 OR red_concrete_powder:0 OR black_concrete_powder:0
+    required-progress: 256 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: orange_concrete_powder:0
+      amount: 1
+      name: 'Craft Concrete'
+      lore: 
+        - 'Crafty and colorful!'
+        - 'Craft 256 concrete powder'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  75: 
+    name: 'Craft Glowstone'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: glowstone:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: glowstone:0
+      amount: 1
+      name: 'Craft Glowstone'
+      lore: 
+        - 'Bring home the nether glow!'
+        - 'Craft 64 glowstone'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  76: 
+    name: 'Craft Copper Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: copper_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: copper_block:0
+      amount: 1
+      name: 'Craft Copper Blocks'
+      lore: 
+        - 'Collect some copper!'
+        - 'Craft 64 copper blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  77: 
+    name: 'Craft Redstone Lamps'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: redstone_lamp:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: redstone_lamp:0
+      amount: 1
+      name: 'Craft Redstone Lamps'
+      lore: 
+        - 'Upgrade your lighting!'
+        - 'Craft 64 redstone lamps'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  78: 
+    name: 'Craft Pistons'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: piston:0
+    required-progress: 32 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: piston:0
+      amount: 1
+      name: 'Craft Pistons'
+      lore: 
+        - 'Shove it!'
+        - 'Craft 32 pistons'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  79: 
+    name: 'Craft Redstone Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: redstone_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: redstone_block:0
+      amount: 1
+      name: 'Craft Redstone Blocks'
+      lore: 
+        - 'Harness the power!'
+        - 'Craft 64 redstone blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  80: 
+    name: 'Craft Bookshelves'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: bookshelf:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bookshelf:0
+      amount: 1
+      name: 'Craft Bookshelves'
+      lore: 
+        - 'A bit of smart decor!'
+        - 'Craft 64 bookshelves'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  81: 
+    name: 'Craft Rails'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: rail:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: rail:0
+      amount: 1
+      name: 'Craft Rails'
+      lore: 
+        - 'A bit of smart decor!'
+        - 'Craft 129 rails of any type'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  82: 
+    name: 'Craft Hoppers'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: hopper:0
+    required-progress: 16 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: hopper:0
+      amount: 1
+      name: 'Craft Hoppers'
+      lore: 
+        - 'Suck it up!'
+        - 'Craft 16 hoppers'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  83: 
+    name: 'Craft Iron Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: iron_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: iron_block:0
+      amount: 1
+      name: 'Craft Iron Blocks'
+      lore: 
+        - 'Fantastically ferrous!'
+        - 'Craft 64 iron blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  84: 
+    name: 'Craft Rabbit Stew'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: rabbit_stew:0
+    required-progress: 32 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: rabbit_stew:0
+      amount: 1
+      name: 'Craft Rabbit Stew'
+      lore: 
+        - 'A warm and fluffy snack!'
+        - 'Craft 64 rabbit stew'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  85: 
+    name: 'Craft Anvils'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: anvil:0
+    required-progress: 16 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: anvil:0
+      amount: 1
+      name: 'Craft Anvils'
+      lore: 
+        - 'Extra anvils!'
+        - 'Craft 8 anvils'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  86: 
+    name: 'Craft Honeycomb Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: honeycomb_block:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: honeycomb_block:0
+      amount: 1
+      name: 'Craft Honeycomb Blocks'
+      lore: 
+        - 'Sticky, but sturdy!'
+        - 'Craft 128 honeycomb blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  87: 
+    name: 'Craft Honey Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: honey_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: honey_block:0
+      amount: 1
+      name: 'Craft Honey Blocks'
+      lore: 
+        - 'Saturated sweetness!'
+        - 'Craft 64 honey blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  88: 
+    name: 'Craft Slime Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: slime_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: slime_block:0
+      amount: 1
+      name: 'Craft Slime Blocks'
+      lore: 
+        - 'Satisfyingly sticky!'
+        - 'Craft 64 slime blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  89: 
+    name: 'Craft Quartz Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: quartz_block:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: quartz_block:0
+      amount: 1
+      name: 'Craft Quartz Blocks'
+      lore: 
+        - 'Compact that quartz!'
+        - 'Craft 128 quartz blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  90: 
+    name: 'Craft Prismarine Bricks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: prismarine_bricks:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: prismarine_bricks:0
+      amount: 1
+      name: 'Craft Prismarine Bricks'
+      lore: 
+        - 'Sturdy and salty!'
+        - 'Craft 64 prismarine bricks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  91: 
+    name: 'Craft Dark Prismarine'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: dark_prismarine:0
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: dark_prismarine:0
+      amount: 1
+      name: 'Craft Dark Prismarine'
+      lore: 
+        - 'Sturdy and salty!'
+        - 'Craft 64 dark prismarine'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  92: 
+    name: 'Craft End Crystals'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: end_crystal:0
+    required-progress: 8 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: end_crystal:0
+      amount: 1
+      name: 'Craft End Crystals'
+      lore: 
+        - 'The key to an ancient evil!'
+        - 'Craft 8 end crystals'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  93: 
+    name: 'Craft Sea Lanterns'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: sea_lantern:0
+    required-progress: 32 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: sea_lantern:0
+      amount: 1
+      name: 'Craft Sea Lanterns'
+      lore: 
+        - 'A little bit of ocean ambience!'
+        - 'Craft 32 sea lanterns'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  94: 
+    name: 'Craft Amethyst blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: amethyst_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: amethyst_block:0
+      amount: 1
+      name: 'Craft Sea Lanterns'
+      lore: 
+        - 'Craft some crystals!'
+        - 'Craft 64 amethyst blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  95: 
+    name: 'Craft Golden Apples'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: golden_apple:0
+    required-progress: 32 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: golden_apple:0
+      amount: 1
+      name: 'Craft Golden Apples'
+      lore: 
+        - 'Midas' favorite snack!'
+        - 'Craft 32 golden apples'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  96: 
+    name: 'Craft Gold Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: gold_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: gold_block:0
+      amount: 1
+      name: 'Craft Gold Blocks'
+      lore: 
+        - 'Fill your vault!'
+        - 'Craft 64 gold blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  97: 
+    name: 'Craft Lapis Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: lapis_block:0
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: lapis_block:0
+      amount: 1
+      name: 'Craft Lapis Blocks'
+      lore: 
+        - 'Stockpile your lapis!'
+        - 'Craft 64 lapis blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  97: 
+    name: 'Craft Emerald Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: emerald_block:0
+    required-progress: 32 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: emerald_block:0
+      amount: 1
+      name: 'Craft Emerald Blocks'
+      lore: 
+        - 'Flex on the villagers!'
+        - 'Craft 32 emerald blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  98: 
+    name: 'Craft Diamond Blocks'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: diamond_block:0
+    required-progress: 4 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: diamond_block:0
+      amount: 1
+      name: 'Craft Diamond Blocks'
+      lore: 
+        - 'A dwarf's best friend!'
+        - 'Craft 4 diamond blocks'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  99: 
+    name: 'Craft Turtle Shell'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: turtle_helmet:0
+    required-progress: 2 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: turtle_helmet:0
+      amount: 1
+      name: 'Craft Turtle Shell'
+      lore: 
+        - 'The best aquatic armor!'
+        - 'Craft 2 turtle shells'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  100: 
+    name: 'Craft Netherite Block'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: netherite_block:0
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: netherite_block:0
+      amount: 1
+      name: 'Craft Netherite Block'
+      lore: 
+        - 'The best aquatic armor!'
+        - 'Craft 1 netherite block'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  101: 
+    name: 'Craft Conduit'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: conduit:0
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: conduit:0
+      amount: 1
+      name: 'Craft Conduit'
+      lore: 
+        - 'Make the ocean your home!'
+        - 'Craft 1 conduit'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  102: 
+    name: 'Craft Beacon'  # Generic Name
+    type: craft  # Your quest
+    variable:
+      root: beacon:0
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: beacon:0
+      amount: 1
+      name: 'Craft Beacon'
+      lore: 
+        - 'Boost your base!'
+        - 'Craft 1 beacon'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
