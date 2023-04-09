@@ -1825,3 +1825,233 @@ quests:
         - 'Fish up 8 saddles'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### Smelt ###
+
+#Triggered: When a player smelts an item in a furnace.
+#Variable: The material of the item received from smelting (e.g, iron_ingot).
+
+  111: 
+    name: 'Smelt Stone'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: stone:0
+    required-progress: 512 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: stone:0
+      amount: 1
+      name: 'Smelt Stone'
+      lore: 
+        - 'Smelt some stone!'
+        - 'Collect 512 stone from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  112: 
+    name: 'Smelt Charcoal'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: charcoal:0
+    required-progress: 256 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: charcoal:0
+      amount: 1
+      name: 'Smelt Charcoal'
+      lore: 
+        - 'Cook up some charcoal!'
+        - 'Collect 256 charcoal from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  113: 
+    name: 'Cook Potatoes'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: baked_potato:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: baked_potato:0
+      amount: 1
+      name: 'Cook Potatoes'
+      lore: 
+        - 'Smoke up some starch!'
+        - 'Collect 128 baked potatoes from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  114: 
+    name: 'Cook Beef'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_beef:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_beef:0
+      amount: 1
+      name: 'Cook Beef'
+      lore: 
+        - 'Get your daily dose of protein!'
+        - 'Collect 128 cooked beef from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  115: 
+    name: 'Cook Pork'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_porkchop:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_porkchop:0
+      amount: 1
+      name: 'Cook Pork'
+      lore: 
+        - 'Bring home the bacon!'
+        - 'Collect 128 cooked pork from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  116: 
+    name: 'Cook Mutton'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_mutton:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_mutton:0
+      amount: 1
+      name: 'Cook Mutton'
+      lore: 
+        - 'Make some mutton!'
+        - 'Collect 128 cooked mutton from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  117: 
+    name: 'Cook Chicken'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_chicken:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_chicken:0
+      amount: 1
+      name: 'Cook Chicken'
+      lore: 
+        - 'Cook up some chicken!'
+        - 'Collect 128 cooked chicken from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  117: 
+    name: 'Cook Rabbit'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_rabbit:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_rabbit:0
+      amount: 1
+      name: 'Cook Rabbit'
+      lore: 
+        - 'Roast some rabbit!'
+        - 'Collect 128 cooked rabbit from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  118: 
+    name: 'Cook Cod'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_cod:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_cod:0
+      amount: 1
+      name: 'Cook Cod'
+      lore: 
+        - 'Cook up some cod!'
+        - 'Collect 128 cooked cod from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  119: 
+    name: 'Cook Salmon'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: cooked_salmon:0
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_salmon:0
+      amount: 1
+      name: 'Cook Salmon'
+      lore: 
+        - 'Sear some salmon!'
+        - 'Collect 128 cooked salmon from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  119: 
+    name: 'Smelt Copper Ingots'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: copper_ingot:0
+    required-progress: 256 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: copper_ingot:0
+      amount: 1
+      name: 'Smelt Copper Ingots'
+      lore: 
+        - 'Cook up some copper!'
+        - 'Collect 256 copper ingots from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  120: 
+    name: 'Smelt Iron Ingots'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: iron_ingot:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: iron_ingot:0
+      amount: 1
+      name: 'Smelt Iron Ingots'
+      lore: 
+        - 'Invest in iron!'
+        - 'Collect 128 iron ingots from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  121: 
+    name: 'Smelt Gold Ingots'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: gold_ingot:0
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: gold_ingot:0
+      amount: 1
+      name: 'Smelt Gold Ingots'
+      lore: 
+        - 'Get that gold!'
+        - 'Collect 128 iron ingots from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  121: 
+    name: 'Dry Sponges'  # Generic Name
+    type: smelt  # Your quest
+    variable:
+      root: sponge:0
+    required-progress: 32 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: sponge:0
+      amount: 1
+      name: 'Dry Sponges'
+      lore: 
+        - 'Steamy sponges!'
+        - 'Collect 32 dry sponges from a furnace'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
