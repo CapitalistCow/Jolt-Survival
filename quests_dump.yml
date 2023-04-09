@@ -2039,7 +2039,7 @@ quests:
         - 'Collect 128 iron ingots from a furnace'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
-  121: 
+  122: 
     name: 'Dry Sponges'  # Generic Name
     type: smelt  # Your quest
     variable:
