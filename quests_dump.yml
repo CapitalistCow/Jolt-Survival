@@ -2055,3 +2055,677 @@ quests:
         - 'Collect 32 dry sponges from a furnace'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+  
+### enchant-all ###
+
+#Triggered: When a player enchants an item using an enchantment table OR an anvil.
+#Variables:
+  #root: The name of the enchantment (see here)
+  #level: The level of the enchantment
+  
+  123:  
+    name: 'Enchant with Protection IV'  # Generic Name
+    type: entchant-all  # Your quest
+    variable:
+      root: PROTECTION_ENVIRONMENTAL
+      level: 4
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Protection IV'
+      lore: 
+        - 'Protect yourself!'
+        - 'Enchant 1 item with Protection IV'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  124:  
+    name: 'Enchant with Sharpness V'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: DAMAGE_ALL
+      level: 5
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Sharpness V'
+      lore: 
+        - 'Become a true warrior!'
+        - 'Enchant 1 item with Sharpness V'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  125:  
+    name: 'Enchant with Unbreaking III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: DURABILITY
+      level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Unbreaking III'
+      lore: 
+        - 'Make your items last longer!'
+        - 'Enchant 1 item with Unbreaking III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'       
+  126:  
+    name: 'Enchant with Efficiency V'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: DIG_SPEED
+      level: 5
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Efficiency V'
+      lore: 
+        - 'Speed up your mining!'
+        - 'Enchant 1 item with Efficiency V'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'       
+  127:
+    name: 'Enchant with Projectile Protection IV'
+    type: enchant-all
+    variable:
+      root: PROTECTION_PROJECTILE
+      level: 4
+    required-progress: 1
+    points: 10
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Projectile Protection IV'
+      lore:
+        - 'Protect yourself from projectiles!'
+        - 'Enchant 1 item with Projectile Protection IV'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  128:
+    name: 'Enchant with Aqua Affinity'
+    type: enchant-all
+    variable:
+      root: WATER_WORKER
+      level: 1
+    required-progress: 1
+    points: 15
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Aqua Affinity'
+      lore:
+        - 'Mine faster underwater!'
+        - 'Enchant 1 helmet with Aqua Affinity'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'       
+  129:  
+    name: 'Enchant with Lure III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+       root: LURE
+       level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Lure III'
+      lore: 
+        - 'Catch more fish!'
+        - 'Enchant 1 fishing rod with Lure III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'      
+  130:  
+    name: 'Enchant with Luck of the Sea III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+       root: LUCK
+       level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Luck of the Sea III'
+      lore: 
+        - 'Increase your chances of finding treasure!'
+        - 'Enchant 1 fishing rod with Luck of the Sea III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'      
+  131:  
+    name: 'Enchant with Respiration III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+       root: OXYGEN
+       level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Respiration III'
+      lore: 
+        - 'Stay underwater for longer!'
+        - 'Enchant 1 helmet with Respiration III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'     
+  132:  
+    name: 'Enchant with Power V'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+       root: ARROW_DAMAGE
+       level: 5
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Power V'
+      lore: 
+        - 'Increase your arrow damage!'
+        - 'Enchant 1 bow with Power V'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  133:
+    name: 'Enchant with Flame'
+    type: enchant-all
+    variable:
+       root: ARROW_FIRE
+       level: 1
+    required-progress: 1
+    points: 15
+    item:
+      material: bow
+      amount: 1
+      name: 'Enchant with Flame'
+      lore:
+        - 'Set your enemies ablaze!'
+        - 'Enchant a bow with Flame'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  134:
+    name: 'Enchant with Infinity'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+       root: ARROW_INFINITE
+       level: 1
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Infinity'
+      lore: 
+        - 'Infinite arrows!'
+        - 'Enchant 1 bow with Infinity'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'       
+  135:  
+    name: 'Enchant with Arrow Knockback'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+       root: ARROW_KNOCKBACK
+       level: 2
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Arrow Knockback'
+      lore: 
+        - 'Push back your enemies!'
+        - 'Enchant 1 bow with Arrow Knockback'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  136:
+    name: 'Enchant with Channeling'
+    type: enchant-all
+    variable:
+       root: CHANNELING
+       level: 1
+    required-progress: 1
+    points: 20
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Channeling'
+      lore:
+        - 'Bring down the lightning!'
+        - 'Enchant 1 trident with Channeling'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  137:  
+    name: 'Enchant with Bane of Arthropods V'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: DAMAGE_ARTHROPODS
+      level: 5
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Bane of Arthropods V'
+      lore: 
+        - 'Squishy!'
+        - 'Enchant 1 item with Bane of Arthropods V'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  138:  
+    name: 'Enchant with Smite V'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: DAMAGE_UNDEAD
+      level: 5
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Smite V'
+      lore: 
+        - 'Vanquish the undead!'
+        - 'Enchant 1 item with Smite V'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  139:
+    name: 'Enchant with Depth Strider III' # Generic Name
+    type: enchant-all # Your quest
+    variable:
+      root: DEPTH_STRIDER
+      level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 15 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Depth Strider III'
+      lore:
+        - 'Move faster underwater!'
+        - 'Enchant 1 item with Depth Strider III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  140:
+    name: 'Enchant with Fire Aspect II'  # Generic Name
+   type: enchant-all  # Your quest
+   variable:
+      root: FIRE_ASPECT
+      level: 2
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Fire Aspect II'
+      lore: 
+        - 'Set your foes ablaze!'
+        - 'Enchant 1 item with Fire Aspect II'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  141:
+    name: 'Enchant with Frost Walker II'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: FROST_WALKER
+      level: 2
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Frost Walker II'
+      lore: 
+        - 'Walk on water!'
+        - 'Enchant 1 item with Frost Walker II'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  142:
+    name: 'Enchant with Impaling V'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: IMPALING
+      level: 5
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Impaling V'
+      lore: 
+        - 'Become a master of the seas!'
+        - 'Enchant 1 trident with Impaling V'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  143:  
+    name: 'Enchant with Knockback II'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: KNOCKBACK
+      level: 2
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Knockback II'
+      lore: 
+        - 'Send your enemies flying!'
+        - 'Enchant 1 item with Knockback II'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  144:
+    name: 'Enchant with Fortune III'
+    type: enchant-all
+    variable:
+      root: LOOT_BONUS_BLOCKS
+      level: 3
+    required-progress: 1
+    points: 20
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Fortune III'
+      lore:
+        - 'Fortune favors the bold!'
+        - 'Enchant 1 item with Fortune III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  145:
+    name: 'Enchant with Looting III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: LOOT_BONUS_MOBS
+      level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Looting III'
+      lore: 
+        - 'Loot Bonus Mobs!'
+        - 'Enchant 1 item with Looting III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'       
+  146:  
+    name: 'Enchant with Loyalty'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: LOYALTY
+      level: 1
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Loyalty'
+      lore: 
+        - 'Return it to your hand!'
+        - 'Enchant 1 trident with Loyalty'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+  147:
+    name: 'Enchant with Mending'
+    type: enchant-all
+    variable:
+      root: MENDING
+      level: 1
+    required-progress: 1
+    points: 20
+    item:
+      material: enchanted_book
+      amount: 1
+      name: '&bMending Enchantment'
+      lore:
+        - '&7Place on an item to repair it with XP orbs'
+        - ''
+        - '&7Required Enchantment Level: &b1'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  148:
+    name: 'Enchant with Multishot'
+    type: enchant-all
+    variable:
+      root: ARROW_MULTISHOT
+      level: 1
+    required-progress: 1
+    points: 15
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Multishot'
+      lore:
+        - 'Shoot multiple arrows at once!'
+        - 'Enchant 1 bow with Multishot'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  149:
+    name: 'Enchant with Piercing III'
+    type: enchant-all
+    variable:
+      root: ARROW_PIERCING
+      level: 3
+    required-progress: 1
+    points: 10
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Piercing III'
+      lore:
+        - 'Pierce through targets'
+        - 'Enchant 1 crossbow with Piercing III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'       
+  150:
+    name: 'Enchant with Blast Protection IV' 
+    type: enchant-all 
+    variable:
+      root: PROTECTION_EXPLOSIONS 
+      level: 4 
+    required-progress: 1 
+    points: 10 
+    item: 
+      material: enchanted_book:1 
+      amount: 1 
+      name: 'Enchant with Blast Protection IV' 
+      lore: 
+        - 'Explosion protection!' 
+        - 'Enchant 1 item with Blast Protection IV' 
+        - '' 
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  151:  
+    name: 'Enchant with Feather Falling IV'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: PROTECTION_FALL
+      level: 4
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Feather Falling IV'
+      lore: 
+        - 'Protect yourself from fall damage!'
+        - 'Enchant 1 item with Feather Falling IV'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  152: 
+    name: 'Enchant with Fire Protection IV'  # Generic Name
+    type: entchant-all  # Your quest
+    variable:
+      root: PROTECTION_FIRE
+      level: 4
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Fire Protection IV'
+      lore: 
+        - 'Protect yourself from fire!'
+        - 'Enchant 1 item with Fire Protection IV'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  153:
+    name: 'Enchant with Quick Charge III'
+    type: enchant-all
+    variable:
+      root: ARROW_QUICK_CHARGE
+      level: 3
+    required-progress: 1
+    points: 10
+    item:
+      material: ENCHANTED_BOOK
+      amount: 1
+      name: 'Enchant with Quick Charge III'
+      lore:
+        - 'Charge your crossbow faster!'
+        - 'Enchant 1 crossbow with Quick Charge III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'     
+  154:
+    name: 'Enchant with Riptide III' 
+    type: enchant-all 
+    variable:
+      root: Riptide
+      level: 3
+    required-progress: 1
+    points: 20
+    item:
+      material: trident
+      name: 'Enchant with Riptide III'
+     lore:
+       - 'Ride the lightning!'
+       - 'Enchant a trident with Riptide III'
+       - ''
+       - '%progress_bar% &7(&a%percentage_progress%&7)'    
+  155:
+    name: 'Enchant with Silk Touch'  # Generic Name
+    type: entchant-all  # Your quest
+    variable:
+      root: SILK_TOUCH
+      level: 1
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Silk Touch'
+      lore: 
+        - 'Mine blocks intact!'
+        - 'Enchant 1 item with Silk Touch'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  156:
+    name: 'Enchant with Soul Speed III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: SOUL_SPEED
+      level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Soul Speed III'
+      lore: 
+        - 'Swift as a soul!'
+        - 'Enchant 1 boots with Soul Speed III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  157:
+    name: 'Enchant with Sweeping Edge III' 
+    type: enchant-all 
+    variable:
+      root: SWEEPING_EDGE
+      level: 3
+    required-progress: 1 
+    points: 10  
+    item: 
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Sweeping Edge III'
+      lore: 
+        - 'Sweep them away!'
+        - 'Enchant 1 sword with Sweeping Edge III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  158:
+    name: 'Enchant with Sneaking IV'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: VANISHING_CURSE
+      level: 1
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Sneaking IV'
+      lore: 
+        - 'Sneak around silently'
+        - 'Enchant 1 item with Sneaking IV'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  159:
+    name: 'Enchant with Thorns III'  # Generic Name
+    type: enchant-all  # Your quest
+    variable:
+      root: THORNS
+      level: 3
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Thorns III'
+      lore: 
+        - 'Protect yourself!'
+        - 'Enchant 1 item with Thorns III'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  160:
+    name: 'Enchant with Vanishing Curse'
+    type: enchant-all
+    variable:
+      root: VANISHING_CURSE
+    required-progress: 1
+    points: 20
+    item:
+      material: enchanted_book:1
+      amount: 1
+      name: 'Enchant with Vanishing Curse'
+      lore:
+        - 'Enchant an item with Vanishing Curse'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### chat ###
+
+#Triggered: When a player sends a message in chat.
+#Variable: The message sent (lower case)
+
+  161:
+    name: 'Chat Message'
+    type: chat-message
+    variable:
+      root: 'hello!'
+    required-progress: 1
+    points: 10
+    item:
+      material: written_book
+      amount: 1
+      name: 'Say Hello'
+      lore:
+        - 'Greet the server!'
+        - 'Say 'hello!' in the chat'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
