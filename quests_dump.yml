@@ -309,15 +309,15 @@ quests:
     type: block-place  # Your quest
     variable:
       root: glowstone:0
-    required-progress: 64 # The level player should reach/amount
-    points: 15  # The amount of points that will be rewarded
+    required-progress: 32 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: glowstone:0
       amount: 1
       name: 'Place Glowstone'
       lore: 
         - 'Get your glow on!'
-        - 'Place 64 blocks of glowstone'
+        - 'Place 32 blocks of glowstone'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'  
   19: 
@@ -325,7 +325,7 @@ quests:
     type: block-place  # Your quest
     variable:
       root: redstone_lamp:0
-    required-progress: 16 # The level player should reach/amount
+    required-progress: 32 # The level player should reach/amount
     points: 15  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: redstone_lamp:0
@@ -333,7 +333,7 @@ quests:
       name: 'Place Redstone Lamps'
       lore: 
         - 'Upgrade your lighting.'
-        - 'Place 16 redstone lamps'
+        - 'Place 32 redstone lamps'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'  
   20: 
@@ -342,7 +342,7 @@ quests:
     variable:
       root: oak_fence:0 OR spruce_fence:0 OR birch_fence:0 OR jungle_fence:0 OR acacia_fence:0 OR dark_oak_fence:0 OR mangrove_fence:0 OR crimson_fence:0 Or warped_fence:0 OR nether_brick_fence:0
     required-progress: 64 # The level player should reach/amount
-    points: 15  # The amount of points that will be rewarded
+    points: 10  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: oak_fence:0
       amount: 1
@@ -357,7 +357,7 @@ quests:
     type: block-place  # Your quest
     variable:
       root: cobblestone_wall:0 Or mossy_cobblestone_wall:0 Or stone_brick_wall:0 OR mossy_stone_brick_wall:0 OR granite_wall:0 OR diorite_wall:0 OR andesite_wall:0 OR cobbled_deepslate_wall:0 OR polished_deepslate_wall:0 OR deepslate_brick_wall:0 OR deepslate_tile_wall:0 OR brick_wall:0 OR mud_brick_wall:0 OR sandstone_wall:0 OR red_sandstone_wall:0 OR prismarine_wall:0 OR nether_brick_wall:0 OR red_nether_brick_wall:0 OR blackstone_wall:0 OR polished_blackstone_wall:0 OR polished_blackstone_brick_wall:0 OR end_stone_brick_wall:0
-    required-progress: 48 # The level player should reach/amount
+    required-progress: 64 # The level player should reach/amount
     points: 15  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: stone_brick_wall:0
@@ -365,7 +365,7 @@ quests:
       name: 'Place Walls'
       lore: 
         - 'Beef up your defenses!'
-        - 'Place 48 walls of any type'
+        - 'Place 64 walls of any type'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'    
   22: 
@@ -374,7 +374,7 @@ quests:
     variable:
       root: oak_planks:0 OR spruce_planks:0 OR birch_planks:0 OR jungle_planks:0 OR acacia_planks:0 OR dark_oak_planks:0 OR mangrove_planks:0 OR crimson_planks:0 OR warped_planks:0
     required-progress: 256 # The level player should reach/amount
-    points: 15  # The amount of points that will be rewarded
+    points: 10  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: oak_planks:0
       amount: 1
@@ -1100,28 +1100,12 @@ quests:
         - 'Craft 256 carpets of any color'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
-  67: 
-    name: 'Craft Carpets'  # Generic Name
-    type: craft  # Your quest
-    variable:
-      root: white_carpet:0 OR orange_carpet:0 OR magenta_carpet:0 OR light_blue_carpet:0 OR yellow_carpet:0 OR lime_carpet:0 OR pink_carpet:0 OR gray_carpet:0 OR light_gray_carpet:0 OR cyan_carpet:0 OR purple_carpet:0 OR blue_carpet:0 OR brown_carpet:0 OR green_carpet:0 OR red_carpet:0 OR black_carpet:0
-    required-progress: 256 # The level player should reach/amount
-    points: 10  # The amount of points that will be rewarded
-    item:   # The item that will be displayed in menus
-      material: magenta_carpet:0
-      amount: 1
-      name: 'Craft Carpets'
-      lore: 
-        - 'Transform your floors!'
-        - 'Craft 256 carpets of any color'
-        - ''
-        - '%progress_bar% &7(&a%percentage_progress%&7)'
   68: 
     name: 'Craft Beetroot Soup'  # Generic Name
     type: craft  # Your quest
     variable:
       root: beetroot_soup:0
-    required-progress: 64 # The level player should reach/amount
+    required-progress: 32 # The level player should reach/amount
     points: 10  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: beetroot_soup:0
@@ -1129,7 +1113,7 @@ quests:
       name: 'Craft Beetroot Soup'
       lore: 
         - 'Soup's on!'
-        - 'Craft 64 bowls of beetroot soup'
+        - 'Craft 32 bowls of beetroot soup'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
   69: 
@@ -1170,7 +1154,7 @@ quests:
     variable:
       root: coal_block:0
     required-progress: 64 # The level player should reach/amount
-    points: 10  # The amount of points that will be rewarded
+    points: 15  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: coal_block:0
       amount: 1
@@ -1719,7 +1703,7 @@ quests:
     variable:
       root: salmon:0
     required-progress: 48 # The level player should reach/amount
-    points: 15  # The amount of points that will be rewarded
+    points: 10  # The amount of points that will be rewarded
     item:   # The item that will be displayed in menus
       material: salmon:0
       amount: 1
@@ -2729,7 +2713,7 @@ quests:
         - 'Say 'hello!' in the chat'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
-
+        
 ### execute-command ###
 
 #Triggered: When a player issues a server command (cannot be bungee).
@@ -2841,20 +2825,20 @@ quests:
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
   168: 
-    name: 'Accept a TP Request'
+    name: 'Accept 4 TP Requests'
     type: execute-command
     variable:
       root:
         - '/tpaccept'
-    required-progress: 1
-    points: 10
+    required-progress: 4
+    points: 15
     item:
       material: paper
       amount: 1
-      name: 'Accept a TP Request'
+      name: 'Accept 4 TP Requests'
       lore:
-        - 'Visit a friend!'
-        - 'Type /tpaccept'
+        - 'Visit some friends!'
+        - 'Use /tpaccept 4 times'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
   169: 
@@ -2971,7 +2955,7 @@ quests:
     name: 'Defeat a Player'
     type: kill-player
     variable:
-     root: '*'
+      root: '*'
     required-progress: 1
     points: 10
     item:
@@ -2987,7 +2971,7 @@ quests:
     name: 'Defeat 4 Players'
     type: kill-player
     variable:
-     root: '*'
+      root: '*'
     required-progress: 4
     points: 15
     item:
@@ -3003,7 +2987,7 @@ quests:
     name: 'Defeat 8 Players'
     type: kill-player
     variable:
-     root: '*'
+      root: '*'
     required-progress: 8
     points: 20
     item:
@@ -3015,7 +2999,7 @@ quests:
         - 'Kill 8 players in the PvP arena'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
-
+        
 ### login ###
 
 #Triggered: When a player logs into the server.
@@ -3247,4 +3231,245 @@ quests:
         - 'Fill your belly!'
         - 'Regen 400 health with food'
         - ''
-        - '%progress_bar% &7(&a%percentage_progress%&7)'        
+        - '%progress_bar% &7(&a%percentage_progress%&7)'    
+
+### shear ###
+
+#Triggered: When a player shears a sheep.
+#Variable: none.        
+
+  192: 
+    name: 'Shear 8 Sheep'  # Generic Name
+    type: shear  # Your quest
+    required-progress: 8 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: white_wool:0
+      amount: 1
+      name: 'Shear 8 Sheep'
+      lore: 
+        - 'Stock up on wool!'
+        - 'Use shears on 8 sheep'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'  
+  193: 
+    name: 'Shear 16 Sheep'  # Generic Name
+    type: shear  # Your quest
+    required-progress: 16 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: white_wool:0
+      amount: 1
+      name: 'Shear 16 Sheep'
+      lore: 
+        - 'Stock up on wool!'
+        - 'Use shears on 16 sheep'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'  
+  194: 
+    name: 'Shear 64 Sheep'  # Generic Name
+    type: shear  # Your quest
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: white_wool:0
+      amount: 1
+      name: 'Shear 64 Sheep'
+      lore: 
+        - 'Stock up on wool!'
+        - 'Use shears on 64 sheep'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  195: 
+    name: 'Shear 128 Sheep'  # Generic Name
+    type: shear  # Your quest
+    required-progress: 128 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: white_wool:0
+      amount: 1
+      name: 'Shear 128 Sheep'
+      lore: 
+        - 'Stock up on wool!'
+        - 'Use shears on 128 sheep'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'      
+
+### playtime ###
+
+#Triggered: Progressed 1 for every second a user is online (done in 5 second chunks, you must enable this in the settings.yml)
+#Variable: none.        
+
+  196: 
+    name: 'Play for 1 Hour'  # Generic Name
+    type: playtime  # Your quest
+    required-progress: 3600 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: clock:0
+      amount: 1
+      name: 'Play for 1 Hour'
+      lore: 
+        - 'All in a day's work!'
+        - 'Be online for 1 hour in a day'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  197: 
+    name: 'Play for 2 Hours'  # Generic Name
+    type: playtime  # Your quest
+    required-progress: 7200 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: clock:0
+      amount: 1
+      name: 'Play for 2 Hours'
+      lore: 
+        - 'All in a day's work!'
+        - 'Be online for 2 hours in a day'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)' 
+  198: 
+    name: 'Play for 8 Hours'  # Generic Name
+    type: playtime  # Your quest
+    required-progress: 28800 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: clock:0
+      amount: 1
+      name: 'Play for 8 Hours'
+      lore: 
+        - 'Time to grind!'
+        - 'Be online for 8 hours in one season'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  199: 
+    name: 'Play for 16 Hours'  # Generic Name
+    type: playtime  # Your quest
+    required-progress: 57600 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: clock:0
+      amount: 1
+      name: 'Play for 16 Hours'
+      lore: 
+        - 'Truly dedicated!'
+        - 'Be online for 16 hours in one season'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  200: 
+    name: 'Play for 24 Hours'  # Generic Name
+    type: playtime  # Your quest
+    required-progress: 86400 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: clock:0
+      amount: 1
+      name: 'Play for 24 Hours'
+      lore: 
+        - 'Become a power player!'
+        - 'Be online for 24 hours in one season'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### throw-projectile ###
+
+#Triggered: When a player throws/shoots a projectile
+#Variable: The projectile thrown (see here).
+
+  201: 
+    name: 'Throw 128 Snowballs'  # Generic Name
+    type: throw-projectile  # Your quest
+    variable:
+      root: SNOWBALL
+    required-progress: 128 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: snowball:0
+      amount: 1
+      name: 'Frosty Ammunition'
+      lore: 
+        - 'Time for a snowball fight!'
+        - 'Throw 128 snowballs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  202: 
+    name: 'Throw 64 Eggs'  # Generic Name
+    type: throw-projectile  # Your quest
+    variable:
+      root: EGG
+    required-progress: 64 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: egg:0
+      amount: 1
+      name: 'Chicken Breeder'
+      lore: 
+        - 'Make some baby chickens!'
+        - 'Throw 64 eggs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  203: 
+    name: 'Throw 128 Eggs'  # Generic Name
+    type: throw-projectile  # Your quest
+    variable:
+      root: EGG
+    required-progress: 128 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: egg:0
+      amount: 1
+      name: 'Chicken Master'
+      lore: 
+        - 'Hatch an army of chickens!'
+        - 'Throw 128 eggs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  204: 
+    name: 'Throw 64 Ender Pearls'  # Generic Name
+    type: throw-projectile  # Your quest
+    variable:
+      root: ENDER_PEARL
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: ender_pearl:0
+      amount: 1
+      name: 'Enderman in Training'
+      lore: 
+        - 'Teleport around the world!'
+        - 'Throw 64 ender pearls'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  205: 
+    name: 'Throw 32 Splash Potions'  # Generic Name
+    type: throw-projectile  # Your quest
+    variable:
+      root: SPLASH_POTION
+    required-progress: 32 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: ender_pearl:0
+      amount: 1
+      name: 'Potion Pusher'
+      lore: 
+        - 'Make a magical mess!'
+        - 'Throw 32 splash potions'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  206: 
+    name: 'Throw 64 Splash Potions'  # Generic Name
+    type: throw-projectile  # Your quest
+    variable:
+      root: SPLASH_POTION
+    required-progress: 64 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: ender_pearl:0
+      amount: 1
+      name: 'Master Bottle Breaker'
+      lore: 
+        - 'Potions for everyone!'
+        - 'Throw 64 splash potions'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
