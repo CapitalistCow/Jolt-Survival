@@ -3015,3 +3015,236 @@ quests:
         - 'Kill 8 players in the PvP arena'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+### login ###
+
+#Triggered: When a player logs into the server.
+#Variable: none.
+
+  178: 
+    name: 'Login to the Server'  # Generic Name
+    type: login  # Your quest
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: oak_door:0
+      amount: 1
+      name: 'Login to the Server'
+      lore: 
+        - 'Welcome back!'
+        - 'Login to the server once'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### milk ###
+
+#Triggered: When a player milks a cow.
+#Variable: none.
+
+  179: 
+    name: 'Milk 8 Cows'  # Generic Name
+    type: milk  # Your quest
+    required-progress: 8 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: milk_bucket:0
+      amount: 1
+      name: 'Milk 8 Cows'
+      lore: 
+        - 'Good for your bones!'
+        - 'Milk 8 cows with a bucket'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  180: 
+    name: 'Milk 16 Cows'  # Generic Name
+    type: milk  # Your quest
+    required-progress: 16 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: milk_bucket:0
+      amount: 1
+      name: 'Milk 16 Cows'
+      lore: 
+        - 'Good for your bones!'
+        - 'Milk 16 cows with a bucket'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  181: 
+    name: 'Milk 32 Cows'  # Generic Name
+    type: milk  # Your quest
+    required-progress: 32 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: milk_bucket:0
+      amount: 1
+      name: 'Milk 32 Cows'
+      lore: 
+        - 'Good for your bones!'
+        - 'Milk 32 cows with a bucket'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  182: 
+    name: 'Milk 64 Cows'  # Generic Name
+    type: milk  # Your quest
+    required-progress: 64 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: milk_bucket:0
+      amount: 1
+      name: 'Milk 64 Cows'
+      lore: 
+        - 'Good for your bones!'
+        - 'Milk 64 cows with a bucket'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  183: 
+    name: 'Milk 128 Cows'  # Generic Name
+    type: milk  # Your quest
+    required-progress: 128 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: milk_bucket:0
+      amount: 1
+      name: 'Milk 128 Cows'
+      lore: 
+        - 'Good for your bones!'
+        - 'Milk 128 cows with a bucket'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### regenerate ###
+
+#Triggered: When a player regenerates health.
+#Variable: The reason for regaining health (see here).
+
+  184: 
+    name: 'Regen Health with Potions'  # Generic Name
+    type: regenerate  # Your quest
+    variable:
+      - MAGIC_REGEN
+      - MAGIC
+    required-progress: 20 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: potion:0
+      amount: 1
+      name: 'Regen Health with Potions'
+      lore: 
+        - 'Heal up!'
+        - 'Regen 20 health with potions'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  185: 
+    name: 'Regen Health with Potions'  # Generic Name
+    type: regenerate  # Your quest
+    variable:
+      root:
+      - MAGIC_REGEN
+      - MAGIC
+    required-progress: 60 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: potion:0
+      amount: 1
+      name: 'Regen Health with Potions'
+      lore: 
+        - 'Heal up!'
+        - 'Regen 60 health with potions'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  186: 
+    name: 'Regen Health with Potions'  # Generic Name
+    type: regenerate  # Your quest
+    variable:
+      root:
+      - MAGIC_REGEN
+      - MAGIC
+    required-progress: 200 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: potion:0
+      amount: 1
+      name: 'Regen Health with Potions'
+      lore: 
+        - 'Heal up!'
+        - 'Regen 200 health with potions'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  187: 
+    name: 'Regen Health with Potions'  # Generic Name
+    type: regenerate  # Your quest
+    variable:
+      root:
+      - MAGIC_REGEN
+      - MAGIC
+    required-progress: 400 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: potion:0
+      amount: 1
+      name: 'Regen Health with Potions'
+      lore: 
+        - 'Heal up!'
+        - 'Regen 400 health with potions'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  188: 
+    name: 'Regen Health with Food'  # Generic Name
+    type: regenerate  # Your quest
+    variable: SATIATED
+    required-progress: 20 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_beef:0
+      amount: 1
+      name: 'Regen Health with Food'
+      lore: 
+        - 'Fill your belly!'
+        - 'Regen 20 health with food'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  189: 
+    name: 'Regen Health with Food'  # Generic Name
+    type: regenerate  # Your quest
+    variable: SATIATED
+    required-progress: 60 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_beef:0
+      amount: 1
+      name: 'Regen Health with Food'
+      lore: 
+        - 'Fill your belly!'
+        - 'Regen 60 health with food'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  190: 
+    name: 'Regen Health with Food'  # Generic Name
+    type: regenerate  # Your quest
+    variable: SATIATED
+    required-progress: 200 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_beef:0
+      amount: 1
+      name: 'Regen Health with Food'
+      lore: 
+        - 'Fill your belly!'
+        - 'Regen 200 health with food'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  191: 
+    name: 'Regen Health with Food'  # Generic Name
+    type: regenerate  # Your quest
+    variable: SATIATED
+    required-progress: 400 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cooked_beef:0
+      amount: 1
+      name: 'Regen Health with Food'
+      lore: 
+        - 'Fill your belly!'
+        - 'Regen 400 health with food'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'        
