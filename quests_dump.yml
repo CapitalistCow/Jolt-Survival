@@ -2891,3 +2891,127 @@ quests:
         - 'Type /vote'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### kill-mob ###
+
+#Triggered: When a player kills a mob.
+#Variable: The type of mob.
+
+  171:
+    name: 'Kill 32 Mobs'
+    type: kill-mob
+    variable:
+      mob: '*'
+    required-progress: 32
+    points: 10
+    item:
+      material: rotten_flesh #item need to edited
+      amount: 1  #the amound of items need to edited
+      name: 'Kill Mobs'
+      lore:
+        - 'Slay your enemies!'
+        - 'Kill 32 mobs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  172:
+    name: 'Kill 64 Mobs'
+    type: kill-mob
+    variable:
+      mob: '*'
+    required-progress: 64
+    points: 10
+    item:
+      material: rotten_flesh #item need to edited
+      amount: 1  #the amound of items need to edited
+      name: 'Kill Mobs'
+      lore:
+        - 'Slay your enemies!'
+        - 'Kill 64 mobs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  173:
+    name: 'Kill 128 Mobs'
+    type: kill-mob
+    variable:
+      mob: '*'
+    required-progress: 128
+    points: 15
+    item:
+      material: rotten_flesh #item need to edited
+      amount: 1  #the amound of items need to edited
+      name: 'Kill Mobs'
+      lore:
+        - 'Slay your enemies!'
+        - 'Kill 128 mobs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  174:
+    name: 'Kill 256 Mobs'
+    type: kill-mob
+    variable:
+      mob: '*'
+    required-progress: 256
+    points: 20
+    item:
+      material: rotten_flesh #item need to edited
+      amount: 1  #the amound of items need to edited
+      name: 'Kill Mobs'
+      lore:
+        - 'Slay your enemies!'
+        - 'Kill 256 mobs'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### kill-player ###
+
+#Triggered: When a player kills another player.
+#Variable: The name of the killed player.
+
+  175:
+    name: 'Defeat a Player'
+    type: kill-player
+    variable:
+     root: '*'
+    required-progress: 1
+    points: 10
+    item:
+      material: iron_sword
+      amount: 1
+      name: 'Defeat a Player'
+      lore:
+        - 'Show your PvP skills!'
+        - 'Kill 1 player in the PvP arena'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  176:
+    name: 'Defeat 4 Players'
+    type: kill-player
+    variable:
+     root: '*'
+    required-progress: 4
+    points: 15
+    item:
+      material: diamond_sword
+      amount: 1
+      name: 'Defeat 4 Players'
+      lore:
+        - 'Become a PvP master!'
+        - 'Kill 4 players in the PvP arena'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  177:
+    name: 'Defeat 8 Players'
+    type: kill-player
+    variable:
+     root: '*'
+    required-progress: 8
+    points: 20
+    item:
+      material: netherite_sword
+      amount: 1
+      name: 'Defeat 8 Players'
+      lore:
+        - 'Become a PvP god!'
+        - 'Kill 8 players in the PvP arena'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
