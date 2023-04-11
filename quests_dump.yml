@@ -2729,3 +2729,165 @@ quests:
         - 'Say 'hello!' in the chat'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+### execute-command ###
+
+#Triggered: When a player issues a server command (cannot be bungee).
+#Variable:: The command executed (must be lower case).
+
+  162: 
+    name: 'Open your Backpack'
+    type: execute-command
+    variable:
+      root:
+        - '/bp'
+        - '/backpack'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Open your Backpack'
+      lore:
+        - 'A little extra storage!'
+        - 'Type /bp or /backpack'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  163: 
+    name: 'Visit Your Home'
+    type: execute-command
+    variable:
+      root:
+        - '/home'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Visit Your Home'
+      lore:
+        - 'Go home!'
+        - 'Type /home'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  164: 
+    name: 'Check Your Balance'
+    type: execute-command
+    variable:
+      root:
+        - '/bal'
+        - '/balance'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Check Your Balance'
+      lore:
+        - 'Whats in the bank?'
+        - 'Type /bal or /balance'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  165: 
+    name: 'Check Your Keys'
+    type: execute-command
+    variable:
+      root:
+        - '/keys'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Check Your Keys'
+      lore:
+        - 'Open some crates!'
+        - 'Type /keys'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  166: 
+    name: 'Check Out the Player Warps'
+    type: execute-command
+    variable:
+      root:
+        - '/pw'
+        - '/pwarps'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Check Out the Player Warps'
+      lore:
+        - 'Visit other players' warps!'
+        - 'Type /pw or /pwarps'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  167: 
+    name: 'Visit Spawn'
+    type: execute-command
+    variable:
+      root:
+        - '/spawn'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Visit Spawn'
+      lore:
+        - 'See whats happening at the hub!'
+        - 'Type /spawn'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  168: 
+    name: 'Accept a TP Request'
+    type: execute-command
+    variable:
+      root:
+        - '/tpaccept'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Accept a TP Request'
+      lore:
+        - 'Visit a friend!'
+        - 'Type /tpaccept'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  169: 
+    name: 'Get the Server Map Link'
+    type: execute-command
+    variable:
+      root:
+        - '/map'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Get the Server Map Link'
+      lore:
+        - 'Its a big world!'
+        - 'Type /map'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  170: 
+    name: 'Open the Vote Menu'
+    type: execute-command
+    variable:
+      root:
+        - '/vote'
+    required-progress: 1
+    points: 10
+    item:
+      material: paper
+      amount: 1
+      name: 'Open the Vote Menu'
+      lore:
+        - 'Earn some keys!'
+        - 'Type /vote'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
