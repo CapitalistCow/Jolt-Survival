@@ -180,7 +180,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: copper_ore:0
       amount: 1
-      name: 'Copper Collecter'
+      name: 'Mine Copper'
       lore: 
         - 'Go catch some copper!'
         - 'Mine 64 copper ore'
@@ -196,7 +196,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: gold_ore:0
       amount: 1
-      name: 'Golden God'
+      name: 'Mine Gold'
       lore: 
         - 'Strike it rich!'
         - 'Mine 64 gold ore'
@@ -212,7 +212,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: nether_quartz_ore:0
       amount: 1
-      name: 'Quartz Crazy'
+      name: 'Mine Quartz'
       lore: 
         - 'Go quartz crazy!'
         - 'Mine 128 blocks of nether quartz ore'
@@ -576,7 +576,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: bread:0
       amount: 1
-      name: 'Eat Bread'
+      name: 'Carb Crusher'
       lore: 
         - 'Bready, set, go!'
         - 'Eat 64 bread'
@@ -592,9 +592,9 @@ quests:
     item:   # The item that will be displayed in menus
       material: melon_slice:0
       amount: 1
-      name: 'Eat Melon Slices'
+      name: 'Melon Master'
       lore: 
-        - 'Get the munchies for melon!'
+        - 'Melon munchies!'
         - 'Eat 64 melon slices'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
@@ -608,7 +608,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: sweet_berries:0
       amount: 1
-      name: 'Eat Sweet Berries'
+      name: 'Berry Sweet'
       lore: 
         - 'Let the berry binge begin!'
         - 'Eat 64 sweet berries'
@@ -672,7 +672,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: cooked_mutton:0
       amount: 1
-      name: 'Eat Mutton'
+      name: 'Mutton Muncher'
       lore: 
         - 'Feast on the flock!'
         - 'Eat 64 cooked mutton'
@@ -752,7 +752,7 @@ quests:
     item:   # The item that will be displayed in menus
       material: milk_bucket:0
       amount: 1
-      name: 'Drink Milk'
+      name: 'Got Milk?'
       lore: 
         - 'Milk it for all its worth!'
         - 'Drink 8 buckets of milk'
@@ -3473,3 +3473,206 @@ quests:
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
         
+### ride-mob ### 
+
+#Triggered: When a player rides a mob.
+#Variable: The type of entity.
+
+  207: 
+    name: 'Ride a Horse'  # Generic Name
+    type: ride-mob  # Your quest
+    variable:
+      root: HORSE
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: saddle:0
+      amount: 1
+      name: 'Equestrian Skills'
+      lore: 
+        - 'Giddy up!'
+        - 'Ride 1 horse'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  208: 
+    name: 'Ride a Donkey'  # Generic Name
+    type: ride-mob  # Your quest
+    variable:
+      root: DONKEY
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: saddle:0
+      amount: 1
+      name: 'A Humble Mount'
+      lore: 
+        - 'A "noble" steed!'
+        - 'Ride 1 donkey'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  209: 
+    name: 'Ride a Mule'  # Generic Name
+    type: ride-mob  # Your quest
+    variable:
+      root: MULE
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: saddle:0
+      amount: 1
+      name: 'Mount a Mule'
+      lore: 
+        - 'The best of both worlds!'
+        - 'Ride 1 mule'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  210: 
+    name: 'Ride a Pig'  # Generic Name
+    type: ride-mob  # Your quest
+    variable:
+      root: PIG
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: carrot_on_a_stick:0
+      amount: 1
+      name: 'When Pigs Fly'
+      lore: 
+        - 'You'll never know unless you try!'
+        - 'Ride 1 pig'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  211: 
+    name: 'Ride a Skeleton Horse'  # Generic Name
+    type: ride-mob  # Your quest
+    variable:
+      root: SKELETON_HORSE
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bone:0
+      amount: 1
+      name: 'Skeletal Rider'
+      lore: 
+        - 'Back from the dead!'
+        - 'Ride 1 skeleton horse'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  212: 
+    name: 'Ride a Strider'  # Generic Name
+    type: ride-mob  # Your quest
+    variable:
+      root: SKELETON_HORSE
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: warped_fungus_on_a_stick:0
+      amount: 1
+      name: 'Walking on Lava'
+      lore: 
+        - 'Watch your step!'
+        - 'Ride 1 strider'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+        
+### tame ###
+
+#Triggered: When a player tames a mob.
+#Variable: The type of entity tamed.
+
+  213: 
+    name: 'Tame a Wolf'  # Generic Name
+    type: tame  # Your quest
+    variable:
+      root: WOLF
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bone:0
+      amount: 1
+      name: 'A Miner's Best Friend'
+      lore: 
+        - 'Loyal to the end!'
+        - 'Tame 1 wolf'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  214: 
+    name: 'Tame a Cat'  # Generic Name
+    type: tame  # Your quest
+    variable:
+      root: OCELOT
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cod:0
+      amount: 1
+      name: 'Adopt a Cat'
+      lore: 
+        - 'Bring a gift!'
+        - 'Tame 1 ocelot'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  215: 
+    name: 'Tame a Horse'  # Generic Name
+    type: tame  # Your quest
+    variable:
+      root: HORSE
+    required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: saddle:0
+      amount: 1
+      name: 'Find a Steed'
+      lore: 
+        - 'They love carrots!'
+        - 'Tame 1 horse'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  216: 
+    name: 'Tame a Donkey'  # Generic Name
+    type: tame  # Your quest
+    variable:
+      root: DONKEY
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: saddle:0
+      amount: 1
+      name: 'Beast of Burden'
+      lore: 
+        - 'Carries heavy loads!'
+        - 'Tame 1 donkey'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  217: 
+    name: 'Tame a Llama'  # Generic Name
+    type: tame  # Your quest
+    variable:
+      root: LLAMA
+    required-progress: 1 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: lead:0
+      amount: 1
+      name: 'Leash a Llama'
+      lore: 
+        - 'Watch the spit!'
+        - 'Tame 1 llama'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  218: 
+    name: 'Tame a Parrot'  # Generic Name
+    type: tame  # Your quest
+    variable:
+      root: PARROT
+    required-progress: 1 # The level player should reach/amount
+    points: 20  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: feather:0
+      amount: 1
+      name: 'Parrot Pal'
+      lore: 
+        - 'Find an avian ally!'
+        - 'Tame 1 parrot'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
