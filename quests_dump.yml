@@ -1,3 +1,9 @@
+# BattlePass Quests
+# https://battlepass.advancedplugins.net/features/quests
+# Minecraft Items List
+# https://minecraftitemids.com/
+
+
 quests:
   # 1: 
   #   name: ''  # Generic Name
@@ -25,7 +31,6 @@ quests:
 
 # Triggered: When a player breaks a block.
 # Variable: The block's material.
-  
   1: 
     name: 'Lumberjack'  # Generic Name
     type: block-break  # Your quest
@@ -3674,5 +3679,423 @@ quests:
       lore: 
         - 'Find an avian ally!'
         - 'Tame 1 parrot'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+### Honey-Extract  ###
+
+# Triggered: When a player extracts honey combs using shears.
+# Variable: Bee nest or bee hive.
+  219: 
+    name: 'Bear Scavenger'
+    type: honey-extract  # Your quest
+    variable:
+      root: honey_block:0 OR honeycomb_block:0
+      required-progress: 8 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: honeycomb_bottle:0
+      amount: 1
+      name: 'Be the Bear'
+      lore: 
+        - 'Release your inner bear!'
+        - 'Extract honey from a bee hive or bee nest.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  220: 
+    name: 'Winnie the Pooh'
+    type: honey-comb-extract  # Your quest
+    variable:
+      root: honey_block:0 OR honeycomb_block:0
+      required-progress: 8 # The level player should reach/amount
+    points: 15  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: honeycomb:0
+      amount: 1
+      name: 'Bee Keeper'
+      lore: 
+        - 'Tend to your swarm!'
+        - 'Extract honeycomb from a bee hive or bee nest.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  ### breed  ###
+
+  # Triggered: When a plater breeds a mob.
+  # Variables: root: EntityType, name: Entity's custom name
+  221: 
+    name: 'Horse'
+    type: breed
+    variable:
+      root: HORSE
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: golden_horse_armor:0
+      amount: 1
+      name: 'Stud Farm'
+      lore: 
+        - 'Breed the best stallion!'
+        - 'Breed horses to get a baby horse.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  221: 
+    name: 'Horse'
+    type: breed
+    variable:
+      root: HORSE
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: golden_horse_armor:0
+      amount: 1
+      name: 'Stud Farm'
+      lore: 
+        - 'Breed the best stallion!'
+        - 'Breed horses to get a baby horse.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  222:
+    name: 'Donkey'
+    type: breed
+    variable:
+      root: DONKEY
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: donkey_spawn_egg:0
+      amount: 1
+      name: 'Eqqus Asinus'
+      lore: 
+        - 'Create a drove of Donkeys!'
+        - 'Breed donkeys to get a baby donkey.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  223:
+    name: 'Cow'
+    type: breed
+    variable:
+      root: COW
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cow_spawn_egg:0
+      amount: 1
+      name: 'Equus Asinus'
+      lore: 
+        - 'Populate the pastures!'
+        - 'Breed cows to get a baby cow.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  224:
+    name: 'Goat'
+    type: breed
+    variable:
+      root: GOAT
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: goat_spawn_egg:0
+      amount: 1
+      name: 'Goatherder'
+      lore: 
+        - 'BAAAHAAAHAAA!'
+        - 'Breed goats to get a baby goat.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  225:
+    name: 'Mooshroom'
+    type: breed
+    variable:
+      root: MOOSHROOM
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: mooshroom_spawn_egg:0
+      amount: 1
+      name: 'Fungal Fortitude'
+      lore: 
+        - 'Homemade soup kitchen!'
+        - 'Breed mooshrooms to get a baby mooshroom.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  226:
+    name: 'Sheep'
+    type: breed
+    variable:
+      root: SHEEP
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: sheep_spawn_egg:0
+      amount: 1
+      name: 'Sheep Husbandry'
+      lore: 
+        - 'Counting sheep!'
+        - 'Breed sheep to get a baby sheep.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  227:
+    name: 'Pig'
+    type: breed
+    variable:
+      root: PIG
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: pig_spawn_egg:0
+      amount: 1
+      name: 'Pig Pen'
+      lore: 
+        - 'Squeel Piggy!'
+        - 'Breed pigs to get a baby pig.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  228:
+    name: 'Chicken'
+    type: breed
+    variable:
+      root: CHICKEN
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: chicken_spawn_egg:0
+      amount: 1
+      name: 'Hen House'
+      lore: 
+        - 'Hen Hatchery!'
+        - 'Breed chickens to get a baby chicken.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  229:
+    name: 'Wolf'
+    type: breed
+    variable:
+      root: WOLF
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: wolf_spawn_egg:0
+      amount: 1
+      name: 'Wolf Pack'
+      lore: 
+        - 'Create your litter!'
+        - 'Breed wolves to get a wolf pup.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  230:
+    name: 'Cat'
+    type: breed
+    variable:
+      root: CAT
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: cat_spawn_egg:0
+      amount: 1
+      name: 'Cat Counter'
+      lore: 
+        - 'The Purrfect Pack!'
+        - 'Breed cats to get a baby cat.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  231:
+    name: 'Ocelot'
+    type: breed
+    variable:
+      root: OCELOT
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: ocelot_spawn_egg:0
+      amount: 1
+      name: 'Wild kitties'
+      lore: 
+        - 'What do you get when you mix a tiger and a house cat?'
+        - 'Breed ocelots to get a baby ocelot.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  232:
+    name: 'Axolotl'
+    type: breed
+    variable:
+      root: AXOLOTL
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: axolotl_spawn_egg:0
+      amount: 1
+      name: 'The Happiest Fishies'
+      lore: 
+        - 'Save the cave dwellers!'
+        - 'Breed axolotls to get a baby axolotl.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  233:
+    name: 'Llama'
+    type: breed
+    variable:
+      root: LLAMA
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: llama_spawn_egg:0
+      amount: 1
+      name: 'Herdsire'
+      lore: 
+        - 'Watch for the spitters!'
+        - 'Breed llamas to get a baby llama.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  234:
+    name: 'Trader Llama'
+    type: breed
+    variable:
+      root: TRADER_LLAMA
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: trader_llama_spawn_egg:0
+      amount: 1
+      name: 'Sneaky breeder'
+      lore: 
+        - 'That's not your llama!'
+        - 'Breed the trader's llamas to get a baby trader llama.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  235:
+    name: 'Rabbit'
+    type: breed
+    variable:
+      root: RABBIT
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: rabbit_spawn_egg:0
+      amount: 1
+      name: 'Cuniculture'
+      lore: 
+        - 'Create little bundles of fluff!'
+        - 'Breed rabbits to get a baby rabbit.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  236:
+    name: 'Turtle'
+    type: breed
+    variable:
+      root: TURTLE
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: turtle_spawn_egg:0
+      amount: 1
+      name: 'Crush and Squirt'
+      lore: 
+        - 'Gimmie some fin!'
+        - 'Breed turtles to get a baby turtle.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  237:
+    name: 'Panda'
+    type: breed
+    variable:
+      root: PANDA
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: panda_spawn_egg:0
+      amount: 1
+      name: 'Poe Populator'
+      lore: 
+        - 'Panda Palooza!'
+        - 'Breed pandas to get a baby panda.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  238:
+    name: 'Fox'
+    type: breed
+    variable:
+      root: FOX
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: fox_spawn_egg:0
+      amount: 1
+      name: 'The Tricky Fox'
+      lore: 
+        - 'Gather your forrest friends!'
+        - 'Breed foxes to get a baby fox.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  239:
+    name: 'Bee'
+    type: breed
+    variable:
+      root: BEE
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: bee_spawn_egg:0
+      amount: 1
+      name: 'Queen Bee'
+      lore: 
+        - 'Continue your hive!'
+        - 'Breed bees to get a baby bee.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  240:
+    name: 'Strider'
+    type: breed
+    variable:
+      root: STRIDER
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: strider_spawn_egg:0
+      amount: 1
+      name: 'Nether Rancher'
+      lore: 
+        - 'Produce more nether friends!'
+        - 'Breed striders to get a baby strider.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+  241:
+    name: 'Hoglin'
+    type: breed
+    variable:
+      root: HOGLIN
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: hoglin_spawn_egg:0
+      amount: 1
+      name: 'Hoglin Handler'
+      lore: 
+        - 'Improve your gold trade farm!'
+        - 'Breed hoglins to get a baby hoglin.'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  ### brew  ###
+
+  # Triggered: When a potion is brewed
+  # Variable: Potion Effect Type
+
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+
+  242: 
+    name: 'Absolption'
+    type: brew
+    variable:
+      root: ABSORPTION
+      required-progress: 1 # The level player should reach/amount
+    points: 10  # The amount of points that will be rewarded
+    item:   # The item that will be displayed in menus
+      material: golden_apple:0
+      amount: 1
+      name: 'Temporary Shield'
+      lore: 
+        - 'Increase your max health!'
+        - 'Brew an absorption potion.'
         - ''
         - '%progress_bar% &7(&a%percentage_progress%&7)'
